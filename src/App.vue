@@ -26,7 +26,10 @@
 		</p>
 		<p>
 			<span class="reference">Reference: </span
-			><a href="https://www.youtube.com/@codehal">Codehal</a>
+			><a
+				href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ"
+				>Frontend Mentor</a
+			>
 		</p>
 	</footer>
 </template>
@@ -130,7 +133,7 @@
 		}
 	}
 
-	.footer {
+	.myFooter {
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -142,12 +145,12 @@
 		gap: 2rem;
 
 		p {
-			color: #fff;
+			color: var(--ncl-white);
 			font-size: 18px;
 
 			a {
 				text-decoration: none;
-				color: #ff0000d1;
+				color: var(--pcl-green);
 			}
 		}
 	}
