@@ -1,0 +1,20 @@
+:root {
+	/* Colors */
+	/* Primary */
+	--pcl-green: hsl(75, 94%, 57%);
+
+	/* Neutral */
+	--ncl-white: hsl(0, 0%, 100%);
+	--ncl-gray: hsl(0, 0%, 20%);
+	--ncl-dark-gray: hsl(0, 0%, 12%);
+	--ncl-off-black: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	position: relative;
+	font-weight: normal;
+}
